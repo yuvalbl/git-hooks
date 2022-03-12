@@ -1,1 +1,3 @@
-const a = '1234'
+const a = '123';
+
+console.log(a);
