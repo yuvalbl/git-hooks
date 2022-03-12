@@ -14,8 +14,8 @@
     "lint-staged": "^12.3.5"
   },
   "lint-staged": {
-    "**/*.{js,jsx}": [
-      "eslint ."
+    "*.{js,jsx}": [
+      "./node_modules/.bin/eslint ."
     ]
   },
   "husky": {
